@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu'); 
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti%7CUbuntu');
+
+body {
+    background-color: #D3392B;
+    font-family: 'Ubuntu', sans-serif;
+}
+section.topnavigator div {
+
+}
+
+section.topnavigator div > p {
+    text-align: center;
+    color: white;
+}
+section.topnavigator img {
+    height: 100px;
+    width: 100px;
+    
+}
+section.topnavigator a {
+    vertical-align: middle;
+    margin: auto 0;
+    color: white;
+}
+section.topnavigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
