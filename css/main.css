@@ -61,7 +61,9 @@ body {
 .tall-20 {
   height: 50em;
 }
-
+.tall-40 {
+    height: 70em;
+  }
 .gutter {
   margin-left: 1%;
 }
@@ -96,15 +98,14 @@ body {
 }
 
 .container-narrow {
-  margin: 0 auto;
-  width: 33%;
+  
+  
 }
 
 .container-wide {
   margin: 0 auto;
   width: 80%;
 }
-
 .container-wider {
   margin: 0 auto;
   width: 90%;
@@ -123,6 +124,32 @@ body {
   height: 10rem;
   margin: auto auto;
 }
+.section-9 h4 {
+    margin: 0;
+}
+.section-9 h1 {
+    font-size: 2.5rem;
+}
+.section-9 p {
+    max-width: 43rem;
+    font-size: 1.3rem;
+    line-height: 1.9;
+}
+.section-9 a {
+    float: left;
+    margin: 0 !important;
+    padding: 1rem 1.2rem;
+    background-color: white;
+    color: rgba(0,0,0,.54);
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+.simple-square-small {
+    width: 5rem;
+    height: 5rem;
+    margin: auto auto;
+    margin-top: 1.3rem;
+  }
 .section-8-description p {
   padding: 0rem 2rem;
   line-height: 1.9;
@@ -130,6 +157,18 @@ body {
 }
 .section-8-description h3 {
   padding: 1rem 2rem;
+}
+
+.section-8-body h1 {
+    text-align: left !important;
+    padding: 0 !important;
+}
+.section-8-body span {
+    font-size: .9rem;
+    color: rgba(0,0,0,.54);
+}
+.section-8-body p {
+    line-height: 2;
 }
 .col-2-5 {
   width: 40%;
@@ -139,6 +178,11 @@ body {
   width: 60%;
   float: left;
 }
+.col-3-10 {
+    width: 30%;
+    height: 100%;
+    float: left;
+  }
 .col-3-4 {
   width: 75%;
   float: right;
@@ -258,8 +302,43 @@ body {
 
 .section-11 * {
   padding-bottom: 2rem;
+  text-align: center;
 }
-
+.section-11 p {
+    font-size: 1.4rem;
+    max-width: 44rem;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+  
+.section-11 input {
+    border-radius: 1rem;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    vertical-align: middle;
+    height: 1rem;
+    width: 20rem;
+    text-align: left;
+    padding-left: 1rem;
+    border-style: none;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+.section-11 a {
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    vertical-align: middle;
+    padding: 0;
+    padding: 1.68rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+}
+.section-11 small {
+    line-height: 2;
+}
 .picture {
   border-radius: 80rem;
   text-align: center;
@@ -367,7 +446,28 @@ section.topnavigator {
 }
 
 .links li a {
-  margin: 0 !important;
-  padding: 0.5rem 0;
-  color: #006fc6;
+    margin: 0 !important;
+    padding: 0.5rem 0;
+    color: #006fc6;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.links {
+    
+}
+ul {
+    padding: 1.5rem;
+}
+
+.section-11 {
+    margin-top: 8rem;   
+}
+.simple-circle {
+    height: 17rem;
+    width: 17rem;
+    background-color: yellow;
+    border-radius: 11rem;
+    padding: 0;
+    margin: 3rem auto;
+    box-shadow: 0 4px 8px 0 yellow;
 }
