@@ -1,31 +1,95 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu'); 
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti%7CUbuntu');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti%7CUbuntu");
 
 body {
-    background-color: #D3392B;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  margin: 0;
 }
-section.topnavigator div {
 
+.dark {
+  background: rgb(80, 80, 80);
+}
+.dark-2 {
+  background: rgb(107, 107, 107);
+}
+
+.medium {
+  background: rgb(124, 124, 124);
+}
+.medium-2 {
+  background: rgb(114, 114, 114);
+}
+.light {
+  background: rgb(163, 163, 163);
+}
+
+.tall {
+  height: 30em;
+}
+
+.gutter {
+  margin-left: 1%;
+}
+.col-1 {
+  width: 100%;
+  clear: left;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.col-1-2 {
+  width: 50%;
+  float: left;
+}
+.col-1-2 h1 {
+  font-size: 40px;
+  padding: 2em;
+  text-align: center;
+}
+
+.col-1-4 {
+  width: 24%;
+  display: inline-block;
+}
+
+.section-3 p {
+  padding: 5em 3em 0em 5em;
+  line-height: 2em;
+  font-size: 20px;
+  font-weight: 100;
+
+  width: 40%;
+}
+
+.section-4 {
+  color: black !important;
+}
+
+.topnavigator {
+  height: 7em;
+}
+
+section.topnavigator > div {
 }
 
 section.topnavigator div > p {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 section.topnavigator img {
-    height: 100px;
-    width: 100px;
-    
+  height: 100px;
+  width: 100px;
 }
 section.topnavigator a {
-    vertical-align: middle;
-    margin: auto 0;
-    color: white;
+  vertical-align: middle;
+  margin: auto 0;
+  color: white;
 }
 section.topnavigator {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
