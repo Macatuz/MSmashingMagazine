@@ -1,4 +1,4 @@
-# Microverse Project #5
+# SmashingMagazine
 By Armando and Ispiret
 
 https://github.com/Macatuz<br>
