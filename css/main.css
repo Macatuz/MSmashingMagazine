@@ -158,9 +158,6 @@ body {
   width: 70%;
 }
 
-.container-narrow {
-}
-
 .container-wide {
   margin: 0 auto;
   width: 80%;
@@ -375,6 +372,13 @@ body {
   margin: 5em auto;
 }
 
+.section-8-heading {
+  margin-left: -14em;
+}
+.section-8-heading div:nth-child(1) {
+  margin-right: 3em !important;
+}
+
 .section-11 * {
   padding-bottom: 2rem;
   text-align: center;
@@ -551,4 +555,13 @@ ul {
 .footer l1 {
   margin-right: 2em;
   font-size: 25px;
+}
+
+[class*="simple-square"] {
+  transform: rotate(-14deg);
+  transition: transform 0.3 ease-out;
+}
+
+[class*="simple-square"]:hover {
+  transform: rotate(0deg);
 }
