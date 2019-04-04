@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-.section-12>div {
+.section-12 > div {
   max-width: 36rem;
   margin: 0 auto;
   margin-top: 1rem;
@@ -34,8 +34,6 @@ body {
 .section-12 a {
   padding: 1rem;
   display: inline-block;
-}
-
 }
 
 .nice-font {
@@ -122,12 +120,12 @@ body {
 }
 .maintitle {
   width: 100%;
-    height: 100px;
-    
-    position: absolute;
-    left: 0;
-    margin-top: 3rem;
-    text-align: center;
+  height: 100px;
+
+  position: absolute;
+  left: 0;
+  margin-top: 3rem;
+  text-align: center;
 }
 .maintitle span {
   padding: 0;
@@ -145,7 +143,7 @@ body {
   height: 4rem;
   display: inline-block;
   margin-right: 2rem;
-  background-color: rgba(0,0,0,.20);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .pad-small-top {
   padding-top: 2em;
@@ -160,7 +158,8 @@ body {
   width: 70%;
 }
 
-.container-narrow {}
+.container-narrow {
+}
 
 .container-wide {
   margin: 0 auto;
@@ -206,7 +205,7 @@ body {
   margin: 0 !important;
   padding: 1rem 1.2rem;
   background-color: white;
-  color: rgba(0, 0, 0, .54);
+  color: rgba(0, 0, 0, 0.54);
   border-radius: 1rem;
   font-weight: bolder;
 }
@@ -234,8 +233,8 @@ body {
 }
 
 .section-8-body span {
-  font-size: .9rem;
-  color: rgba(0, 0, 0, .54);
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .section-8-body p {
@@ -345,7 +344,7 @@ body {
   padding: 0 0.7rem;
 }
 
-.section-7>h1 {
+.section-7 > h1 {
   max-width: 39rem;
   margin: 1rem auto;
   font-size: 2.8em;
@@ -361,7 +360,7 @@ body {
   font-weight: bolder;
 }
 
-.section-7>h3 {
+.section-7 > h3 {
   max-width: 39rem;
   margin: 0rem auto;
   line-height: 2.1;
@@ -431,7 +430,7 @@ body {
   display: block;
 }
 
-h1>span {
+h1 > span {
   font-style: italic;
   font-size: 0.5em;
   padding-right: 8rem;
@@ -459,56 +458,56 @@ h1>span {
   font-size: 25px;
   letter-spacing: 2px;
   display: block;
-    padding: 0;
-    display: inline-block;
+  padding: 0;
+  display: inline-block;
 }
 
-div>span {
+div > span {
   padding-right: 3rem;
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-h2>span {
+h2 > span {
   font-size: 0.7em;
   padding: 0 1em;
   color: rgba(0, 0, 0, 0.54);
 }
 
 .topnavigator {
-  padding: .6rem;
+  padding: 0.6rem;
 }
 
 .topnavigator > img:first-of-type {
   width: 4rem;
 }
-section.topnavigator div>p {
+.topnavigator div > p {
   text-align: center;
   color: white;
 }
 
-section.topnavigator div>p:first-of-type {
+.topnavigator div > p:first-of-type {
   font-size: 1.6rem;
   margin: 0;
   margin-top: 0.5rem;
 }
 
-section.topnavigator div>p:last-of-type {
+.topnavigator div > p:last-of-type {
   margin: 0;
   margin-top: 0.5rem;
 }
 
-section.topnavigator div {
+.topnavigator div {
   vertical-align: middle;
   margin: auto 0;
   text-align: center;
 }
 
-section.topnavigator img {
+.topnavigator img {
   width: 1.6rem;
 }
 
-section.topnavigator a {
+.topnavigator a {
   vertical-align: middle;
   margin: auto 0;
   color: white;
@@ -517,7 +516,7 @@ section.topnavigator a {
   border-radius: 14px;
 }
 
-section.topnavigator {
+.topnavigator {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -530,8 +529,6 @@ section.topnavigator {
   text-align: left;
   font-size: 1.3rem;
 }
-
-.links {}
 
 ul {
   padding: 1.5rem;
@@ -551,7 +548,7 @@ ul {
   box-shadow: 0 4px 8px 0 yellow;
 }
 
-.footer l1{
+.footer l1 {
   margin-right: 2em;
   font-size: 25px;
 }
