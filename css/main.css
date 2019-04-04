@@ -4,7 +4,32 @@ body {
   color: white;
   margin: 0;
 }
-
+.section-12 {
+  margin-top: -1.4rem !important;
+  text-align: center;
+}
+.section-12 > div {
+    max-width: 36rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.section-12 h4 {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.section-12 ul {
+  max-width: 47rem;
+  margin: 0 auto;
+}
+.section-12 li {
+  display: inline-block;
+  padding: 1rem;
+}
+.section-12 a {
+  padding: 1rem;
+  display: inline-block;
+}
+}
 .nice-font {
   font-family: "Bilbo", cursive;
   font-size: 25px;
